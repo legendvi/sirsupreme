@@ -6,7 +6,7 @@ import { zIndex } from '../constants/zIndex';
 import useResponsive from '../hooks/useResponsive';
 import { spacing } from '../hooks/breakpoints';
 
-const { primary, white } = AppColors;
+const { primary, white, mango } = AppColors;
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,7 +97,7 @@ const makeStyles = (isMobile: boolean) =>
   ({
     headerContainer: {
       ...commonStyles.container,
-      backgroundColor: white,
+      backgroundColor: mango,
       margin: isMobile ? spacing.container.mobile : spacing.container.desktop,
       padding: isMobile ? spacing.padding.mobile : spacing.padding.desktop,
       position: 'fixed',

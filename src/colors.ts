@@ -12,6 +12,7 @@ export const AppColors = {
   grayText: '#525252',
   backgroundAlt: '#414141',
   christmasRed: '#DC143C',
+  mango: 'rgb(255 195 108)',
 } as const;
 
 export type AppColorsType = typeof AppColors;

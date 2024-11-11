@@ -19,12 +19,12 @@ function App() {
       <Header />
       <div style={styles.sectionsWrapper}>
         <Hero />
-        <Newsletter imagePath="images/profile.png" />
       </div>
       <SocialChannels />
       <MeetSupreme />
-      <Testimonials />
       <FeaturedPodcasts />
+      <Testimonials />
+      <Newsletter imagePath="images/profile.png" />
     </div>
   );
 }

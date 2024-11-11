@@ -140,6 +140,7 @@ const makeStyles = (isTablet: boolean) =>
       flexDirection: isTablet ? 'column' : 'row',
       alginItems: 'center',
       maxWidth: isTablet ? '100%' : 'auto',
+
       [mediaQuery.tablet]: {
         maxWidth: '100%',
       },
